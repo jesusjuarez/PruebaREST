@@ -1,0 +1,41 @@
+db.libros.insertMany([
+  {
+    "_id" : "1",
+    "nombre" : "Viaje Al Centro de la Tierra",
+    "costo" : "500",
+    "numInventario" : "1",
+    "descripcion": "Durante siglos, un jeroglífico ha permanecido oculto entre las hojas de un libro; sin embargo cuando éste caiga en manos del profesor Lidenbrock, un fantástico viaje hasta entonces inimaginable, se podrá llevar a cabo: un viaje al centro de la Tierra."
+  },
+   {
+   "_id" : "2",
+    "nombre" : "Cementerio de Animales",
+    "costo" : "400",
+    "numInventario" : "3",
+    "descripcion": "Louis lo había comprobado: el gato estaba muerto, y por eso lo había enterrado. Aun así, incomprensiblemente, el gato había vuelto a casa. Church estaba allí otra vez, como Louis Creed temía y deseaba. Porque su hijita Ellie le había e..."
+  },
+   {
+   "_id" : "3",
+    "nombre" : "La Caída de la Casa Usher",
+    "costo" : "800",
+    "numInventario" : "4",
+    "descripcion": "Considerado uno de los mejores trabajos de Allan Poe, este cuento narra la visita de un joven caballero a Roderick Usher, un amigo de la infancia que se ha convertido en un artista excéntrico que debido a sus problemas de su lado vive recluido junto a su hermana Lady Madeline, quien también padece severos problemas de salud."
+  }, {
+  "_id" : "4",
+    "nombre" : "El Corazón Delator",
+    "costo" : "300",
+    "numInventario" : "5",
+    "descripcion": "Publicado en enero de 1843, este libro cuenta la historia de un hombre que convivía con un veterano dueño de una mirada de ave de rapiña que molestaba notoriamente al primero."
+  }, {
+     "_id" : "5",
+    "nombre" : "It",
+    "costo" : "500",
+    "numInventario" : "6",
+    "descripcion": "¿Quién o qué mutila y mata a los niños de un pequeño pueblo norteamericano?¿Por qué llega cíclicamente el horror a Derry en forma de un payaso siniestro que va sembrando la destrucción a su paso? Esto es lo que se proponen averiguar los..."
+  }, {
+  "_id" : "6",
+    "nombre" : "El Visitante",
+    "costo" : "350",
+    "numInventario" : "7",
+    "descripcion": "El mal puede tener muchas caras...Incluso podría tener la tuya. Tras el espectacular éxito de la Trilogía Bill Hodges (Mr. Mercedes, Quien pierde paga y Fin de guardia) King nos sorprende con un thriller tan escalofriante como original..."
+  }
+]);
